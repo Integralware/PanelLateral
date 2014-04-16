@@ -26,7 +26,7 @@ $(document).ready(function(){
     
     
     /*
-     * AL CAMBIAR DE TAMAÑO LA VENTANA DEL NAVEGADOR
+     * AL CAMBIAR DE TAMAÃ‘O LA VENTANA DEL NAVEGADOR
     */
     $(window).resize(function(){
         calculateDimensions();
@@ -54,11 +54,6 @@ $(document).ready(function(){
         windowHeight = document.documentElement.clientHeight; //alto disponible en ventana del explorador
         renderHeight = (windowHeight - 51 - 40 - 31)  +"px";
         togglerHeight = (windowHeight - 51 - 40 - 31)  +"px";
-        /* ¿De donde salen esos valores a restar? Pues de:
-         * 51: #top: 40px de height, 10px de padding-top, y 1px de border-bottom
-         * 40: #content h2: 40px de height
-         * 31: #footer: 30px de height y 1px de border-top
-        */
     }
     // aplicado de dimensiones disponibles
     function applyDimensions(){        
