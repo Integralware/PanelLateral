@@ -1,0 +1,4 @@
+PanelLateral
+============
+
+Panel lateral
